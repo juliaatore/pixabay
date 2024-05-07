@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html>
+
+<html leng="pt-br">
+  
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
 
+    <!-- Início do HEADER -->
     <header>
-<!-- Primeira divisao dentro do HEADER -->
+<!-- Primeira divisão dentro do HEADER -->
       <div>
         <img src="pinguim.png" alt="IMAGEM LOGO">
       </div>
-<!--  Segunda divisao dentro do HEADER -->
+
+
+      <!-- Segunda divisão dentro do HEADER -->
       <div>
 
         <nav>
@@ -40,19 +46,22 @@
 
       </div>
     </header>
-<!-- fim HEADER -->
+<!-- Fim do HEADER -->
 
-<!-- div pai que está abraçando os dois itens (videos e caixa de texto) -->
+
+<!-- DIV pai, que está abraçando os dois itens (video e caixa de texto) -->
     <div>
 
-        <!--  DIV para armazenar o video -->
+      <!-- DIV para armazenar o vídeo  -->
       <div>
         <video autoplay muted loop id="myVideo" >
-          <source src="video livro.mp4" type="video/mp4">
+          <source src="livro.mp4" type="video/mp4">
 
         </video>
       </div>
 
+
+ <!-- DIV para armazenar o Título, parágrafo e Botão  -->
       <div class="content">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat
@@ -60,31 +69,33 @@
           maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore
           latine molestiae, ad mutat oblique delicatissimi pro.</p>
 
-<!-- Botão está recebendo e executando uma função do Javascript -->
+          <!-- Botão está recebendo e executando uma Função do Javascript. -->
         <button id="myBtn" onclick="myFunction()">Pause</button>
 
       </div>
 
     </div>
 
-    <!-- Sessão para inserir meus 3 paragrafos -->
+
+
+    <!-- Sessão para inserir meus 3 parágrafos -->
     <section class="sessao1">
 
-        <!-- Cada DIV existe uma TAG de parágrafo -->
+      <!-- Cada Div existe uma TAG de Parágrafo. -->
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
           maxime nemo eos ea ducimus labore et ut consectetur commodi
           consequatur. Sequi ratione, dignissimos illum numquam impedit omnis.
           Libero, voluptatibus sed?</p>
       </div>
-
+<!-- Cada Div existe uma TAG de Parágrafo. -->
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
           maxime nemo eos ea ducimus labore et ut consectetur commodi
           consequatur. Sequi ratione, dignissimos illum numquam impedit omnis.
           Libero, voluptatibus sed?</p>
       </div>
-
+<!-- Cada Div existe uma TAG de Parágrafo. -->
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
           maxime nemo eos ea ducimus labore et ut consectetur commodi
@@ -93,31 +104,84 @@
       </div>
     </section>
 
+
+
+
     <div class="box">
+      <div class="hidden efeito-img-topo">1</div>
+      <div class="hidden efeito-img-topo">2</div>
+      <div class="hidden efeito-img-topo">3</div>
+    </div>
 
-        <div class="atore">1</div>
-        <div class="atore">2</div>
-        <div class="atore">3</div>
- 
-        </div>
+<section class="formlario" >
 
+  <form>
 
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-              <div class="vw-plugin-top-wrapper"></div>
-            </div>
-          </div>
-          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-          <script>
-            new window.VLibras.Widget('https://vlibras.gov.br/app');
-          </script>
+    <hr class="line" 
           
+    <label for="texto"> Nome</label>
+    <input type="text" placeholder="Digite seu nome" required > <br><br>
+
+   
+    <label for="email">Email</label>
+    <input type="email" placeholder="Digite seu email" required > <br><br>
+
+    <label for="password">Senha</label>
+    <input type="password" placeholder="Digite sua senha" required > <br><br>
+
+    <input type="checkbox">
+    <label for="">Me manter conectado</label> <br><br>
 
 
+    <input type="submit" value="LOGAR" class="btn-enviar" >
+
+    <!-- Criamos uma divisão de conteúdo -->
+    <div class="content" >
+        <p>Ainda não tem conta?</p>
+        <button>CADASTRE-SE</button>
+    </div>
+
+</form>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8763602424865!2d-46.44746607542306!3d-23.536948960694332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce66bc8c86908b%3A0x36962a2d69f3db06!2sObra%20Social%20Dom%20Bosco!5e0!3m2!1spt-BR!2sbr!4v1714782593367!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+
+
+
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 
 
 <script src="script.js"></script>
+
+
+
 
 
 

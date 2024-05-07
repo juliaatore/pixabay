@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box; /*terá explicação*/
+    list-style: none;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  div img {
+      width: 5rem;
+      height: auto;
+      margin-left: 1rem;
+  }
+  
+  header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem;
+      
+  }
+  
+  header ul {
+      display: flex;
+     
+  }
+  
+  header ul li {
+   margin-left: 30px;
+  }
+  
+  
+  
+  #myVideo {
+    position:static ; /*fixed*/ /*terá explicação*/
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position:absolute; /*terá explicação*/
+    margin-top: -40vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100vw;
+    padding: 1vh;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  
+  .sessao1 {
+    display: flex;
+    padding: 10vh;
+    background-color:black;
+    color: white;
+  }
+  
+  .sessao1 div p {
+  text-align: left;
+  margin: 0.5rem;
+  font-weight: 600;
+  }
+
+
+  .box {
+    height: 100vh; /*Altura total disponível*/
+    width: 100vw; /*Largura total disponível*/
+    display: flex; /*Itens lado a lado*/
+    flex-direction: row; 
+    gap: 20px;
+    justify-content: center;  /*justificando itens na horizontal*/  
+    align-items: center;   /*Alinhamento vertical*/
+    /* flex-wrap: wrap;       /*Fazer a quebra dos itens */
+   
+   }
+   
+   
+   .box div { /*chamando minhas caixas / div para estilização*/
+     height: 150px; /*Altura*/
+     width: 150px;  /*Largura*/
+     border: 1px solid black; /*Estilização da borda*/
+     background-color: rgb(171, 23, 134); /*Cor de fundo*/
+     font-size: 60px; /*Tamanho da letra*/
+     box-shadow: 10px 10px 10px black;
+     border-radius: 10px;
+   }
+
+
+   body {
+    background-image: url();
+    /*Selecionar imagem*/
+
+    background-repeat: no-repeat; /*Não repetir imagem*/
+    background-size: cover; /*Formatar imagem*/
+    background-position: center; /*Posicionar centro*/
+    background-size: 130%; /*Posicionar imagem*/
+}
+
+.formulario {
+    background-color: #34344e9d; /*Cor de fundo da caixa*/
+    width: 380px; /*Largura da caixa*/
+    height: 370px; /*Altura da caixa*/
+    color: white; /*Cor da caixa*/
+    margin: 190px auto; /*Margem da caixa*/
+    text-align: center; /*Colocar texto no centro*/
+    padding: 30px; /*Respiro da caixa*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /*Fonte das letras da caixa*/ 
+    box-shadow: 7px 14px 23px black; /*Sombra da caixa*/
+}
+
+.line {
+    width: 150px; /*Largura da linha*/
+    margin-bottom: 50px; /*margem do botão*/
+}
+
+.btn-enviar {
+    background-color: #89a7b1; /*Fundo do botão enviar */
+    width: 230px; /*Largura do botão*/
+    height: 25px; /*Altura do botão*/
+    color: white; /*Cor do botão*/
+    font-size: 12px; /*Tamanho do texto*/
+    border-radius: 7px; /*Arredondar borda*/
+}
+
+.btn-enviar:hover {
+
+    background-color: #566981;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    
+}
+
+.content button{
+    width: 100px;
+    height: 23px;
+    font-size: 10px;
+    color: white;
+    background-color: #89a7b1;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.content button:hover{
+background-color: #566981;
+transition: 0,6s;
+cursor: pointer;
+}
+
+.content{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+/**/
